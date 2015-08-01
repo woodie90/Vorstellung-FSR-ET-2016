@@ -1,0 +1,160 @@
+h1, h2, h3, h4 {
+    font-family: "Oswald", Verdana, serif;
+    font-weight: bold;
+    line-height: 1.1em;
+    margin: 0.2em;
+}
+h1 { font-size: 80px; }
+h2 { font-size: 60px; }
+h3 { font-size: 40px; }
+h4 { font-size: 30px; }
+
+ul, ol {
+    padding-left: 1.2em;
+    line-height: 1.1em;
+    margin: 0.2em 0;
+}
+ul { list-style: disc outside; }
+ol { list-style: decimal outside; }
+
+small, span.small {
+    font-size: 0.5em;
+}
+
+.slide {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+
+    padding: 40px 60px;
+
+    border-radius: 10px;
+
+    background-color: white;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-size: 30px;
+    line-height: 36px;
+
+    letter-spacing: -1px;
+}
+
+.slide q {
+    display: block;
+    font-size: 50px;
+    line-height: 72px;
+
+    margin-top: 100px;
+}
+.slim-slide q {
+    margin-top: 36px;
+}
+
+.slide q strong {
+    white-space: nowrap;
+}
+
+.title h1 {
+    font-size: 135px;
+    font-weight: bold;
+    text-align: center;
+}
+.title h2 {
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center;
+}
+.title p {
+    font-family: "Open Sans", georgia, serif;
+    text-align: right;
+/*    font-weight: bold;*/
+    line-height: 1.1em;
+    margin: 0.1em 0;
+    padding: 0;
+}
+
+.background {
+    z-index: 9999;
+    padding: 0;
+    background-color: rgba(100, 100, 100, 0.50);
+    opacity: 1;
+}
+.background:not(.active) {
+    opacity: 0;
+    display: none;
+}
+.background h1 {
+    font-size: 245px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+
+    text-shadow: 0px 0px 100px #FFF;
+}
+.background h2 {
+    font-size: 185px;
+    font-weight: bold;
+    text-align: center;
+/*    white-space: nowrap;*/
+
+    text-shadow: 0px 0px 100px #FFF;
+}
+
+h1 h, h2 h, h3 h, h4 h {
+    /* Highlight in Title */
+/*    font-variant: small-caps;*/
+    color: #000022;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: rgba(150, 150, 150, 0.8) solid 10px;
+}
+
+.img-slide {
+    text-align: center;
+}
+.img-slide img {
+    margin: auto;
+}
+.img-slide a {
+    font-size: 14px;
+}
+
+.code-slide {
+}
+pre.prettyprint {
+    border: none !important;
+    text-align: left;
+}
+ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*.prettyprint {*/
+/*    background: #000;*/
+/*}*/
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
+    color: #555;
+    list-style-type: decimal !important;
+}
+
+/* float stuff */
+div.left-side {
+    float: left;
+    text-align: left;
+    max-width: 50%;
+}
+div.right-side {
+    float: right;
+    text-align: left;
+    max-width: 50%;
+}
+div.clear {
+    clear: both;
+}

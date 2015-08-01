@@ -1,0 +1,91 @@
+.impress-on-title .footer {
+    opacity: 1;
+}
+#html-title {
+    background-image: url('../img/HTML5-notext.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+#html-friends {
+    background-image: url('../img/html-friends.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 800px;
+}
+#html-friends.future {
+    opacity: 0;
+}
+.impress-on-html-friends #html-title {
+    opacity: 1;
+}
+
+#html-code.future {
+    opacity: 0;
+}
+
+#box-title h1 {
+/*    font-size: 145px;*/
+}
+
+.hidden {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition:    opacity 0.5s;
+    -ms-transition:     opacity 0.5s;
+    -o-transition:      opacity 0.5s;
+    transition:         opacity 0.5s;
+}
+.impress-on-box-floating-start2 #box-floating-start, .impress-on-box-floating-start2 .hidden {
+    opacity: 1;
+}
+
+.impress-on-box-math2 #box-math, .impress-on-box-math2 .hidden {
+    opacity: 1;
+}
+#box-floating .left-side, #box-floating2 .left-side, #box-floating3 .left-side {
+    background-color: rgba(255, 0, 0, 0.3);
+    border: #000 solid 3px;
+    padding: 5px;
+    margin: 5px;
+    min-height: 300px;
+}
+#box-floating .right-side, #box-floating2 .right-side, #box-floating3 .right-side {
+    background-color: rgba(0, 0, 255, 0.3);
+    border: #000 solid 3px;
+    padding: 5px;
+    margin: 5px;
+    min-height: 300px;
+}
+#box-floating .clear, #box-floating2 .clear ,#box-floating3 .clear {
+    background-color: rgba(0, 255, 0, 0.3);
+    border: #000 solid 3px;
+    padding: 5px;
+    margin: 5px;
+}
+#box-floating2 .left-side, #box-floating2 .right-side {
+    width: calc(50% - 26px);
+    max-width: 50%;
+}
+#box-floating3 .left-side:nth-of-type(1) {
+    width: calc(30% - 26px);
+}
+#box-floating3 .left-side:nth-of-type(2) {
+    min-width: calc(70% - 26px);
+}
+
+/* overview step */
+
+#overview {
+    z-index: -1;
+    padding: 0;
+}
+
+/* on overview step everything is visible */
+
+.impress-on-overview .step:not(.background), .impress-on-tut-1 .step:not(.future) {
+    opacity: 1;
+    cursor: pointer;
+}
