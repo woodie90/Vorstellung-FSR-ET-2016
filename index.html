@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="de">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=1024" />
@@ -12,7 +13,7 @@
 
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic|Oswald:700" rel="stylesheet" />
 
-<!--    <link href="css/impress-demo.css" rel="stylesheet" />-->
+  <!--    <link href="css/impress-demo.css" rel="stylesheet" />-->
   <link href="css/base.css" rel="stylesheet" />
   <link href="css/theme.css" rel="stylesheet" />
   <link href="css/slides.css" rel="stylesheet" />
@@ -39,225 +40,231 @@
     it can be found later, when `hint` element is being described.
 
 -->
+
 <body class="impress-not-supported">
 
-<!--
+  <!--
     For example this fallback message is only visible when there is `impress-not-supported` class on body.
 -->
-<div class="fallback-message">
-  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
-</div>
+  <div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
 
-<div class="footer">
-  <img src="img/logo.png" alt="FSR ET" height="90" />
-</div>
-<!--
+  <div class="footer">
+    <img src="img/logo.png" alt="FSR ET" height="90" />
+  </div>
+  <!--
 
     Now that's the core element used by impress.js.
 
 -->
-<div id="impress">
-  <!-- Titelseite -->
-  <div id="title" class="step title" data-x="0" data-y="0">
-    <h1>Fachschaftsrat Elektrotechnik</h1>
-    <p>
-      Einführungswoche 2015<br />
-      Universität Rostock<br />
-    </p>
-  </div>
+  <div id="impress">
+    <!-- Titelseite -->
+    <div id="title" class="step title" data-x="0" data-y="0">
+      <h1>Fachschaftsrat Elektrotechnik</h1>
+      <p>
+        Einführungswoche 2015
+        <br /> Universität Rostock
+        <br />
+      </p>
+    </div>
 
-  <!-- Fachschaft -->
-  <div id="fachschaft-frage" class="step title" data-x="0" data-y="800">
-    <h1>Was ist die Fachschaft?</h1>
-  </div>
+    <!-- Fachschaft -->
+    <div id="fachschaft-frage" class="step title" data-x="0" data-y="800">
+      <h1>Was ist die Fachschaft?</h1>
+    </div>
 
-  <div id="fachschaft-erklaerung" class="step title" data-x="0" data-y="1600">
-    <h2>Gesamtheit aller Studierenden eines Fachbereiches</h2>
-  </div>
+    <div id="fachschaft-erklaerung" class="step title" data-x="0" data-y="1600">
+      <h2>Gesamtheit aller Studierenden eines Fachbereiches</h2>
+    </div>
 
-  <div id="studiengaenge" class="step slide" data-x="1000" data-y="1600">
-    <h2>Studiengänge</h2>
-    <q>
-      <ul>
-        <li>Elektrotechnik</li>
-        <li>Informationstechnik/ Technische Informatik</li>
-        <li>Computational Science an Engineering</li>
-        <li>Electical Engineering</li>
-      </ul>
-    </q>
-  </div>
+    <div id="studiengaenge" class="step slide" data-x="1000" data-y="1600">
+      <h2>Studiengänge</h2>
+      <q>
+        <ul>
+          <li>Elektrotechnik</li>
+          <li>Informationstechnik/ Technische Informatik</li>
+          <li>Computational Science an Engineering</li>
+          <li>Electical Engineering</li>
+        </ul>
+      </q>
+    </div>
 
-  <!-- Fachschaftsrat -->
-  <div id="fachschaftsrat" class="step title" data-x="1000" data-y="0">
-    <h1>Der Fachschaftsrat</h1>
-  </div>
+    <!-- Fachschaftsrat -->
+    <div id="fachschaftsrat" class="step title" data-x="1000" data-y="0">
+      <h1>Der Fachschaftsrat</h1>
+    </div>
 
-  <div id="fachschaftsrat-erklaerung" class="step slide" data-x="2000" data-y="0">
-    <h2>Was ist der Fachschaftsrat</h2>
-    <q>
-      <ul>
-        <li>Vertretung der Fachschaft</li>
-        <li>Besteht aus Studenten der Fachschaft</li>
-        <li>Wahl im Wintersemester</li>
-        <li>Unabhängig von AStA und Fakultät</li>
-        <li><b>DER</b> Ansprechpartner aller Art</li>
-      </ul>
-    </q>
-  </div>
+    <div id="fachschaftsrat-erklaerung" class="step slide" data-x="2000" data-y="0">
+      <h2>Was ist der Fachschaftsrat</h2>
+      <q>
+        <ul>
+          <li>Vertretung der Fachschaft</li>
+          <li>Besteht aus Studenten der Fachschaft</li>
+          <li>Wahl im Wintersemester</li>
+          <li>Unabhängig von AStA und Fakultät</li>
+          <li><b>DER</b> Ansprechpartner aller Art</li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="fachschaftsrat-aufgaben" class="step slide" data-x="3000" data-y="0">
-    <h2>Aufgaben des Fachschaftsrates</h2>
-    <q>
-      <ul>
-        <li>Vertreten der fachlichen Belange der Fachschaft</li>
-        <li>Wahrung der kulturellen und sozialen Belange der Fachschaft <b>(Party)</b></li>
-        <li>Nimmt Einfluss auf akademische Selbstverwaltung</li>
-      </ul>
-    </q>
-  </div>
+    <div id="fachschaftsrat-aufgaben" class="step slide" data-x="3000" data-y="0">
+      <h2>Aufgaben des Fachschaftsrates</h2>
+      <q>
+        <ul>
+          <li>Vertreten der fachlichen Belange der Fachschaft</li>
+          <li>Wahrung der kulturellen und sozialen Belange der Fachschaft <b>(Party)</b></li>
+          <li>Nimmt Einfluss auf akademische Selbstverwaltung</li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="fachschaftsrat-kontakt" class="step slide" data-x="4000" data-y="0">
-    <h2>Kontakt zum Fachschaftsrat</h2>
-    <q>
-      <ul>
-        <li>Sprecht uns direkt an!</li>
-        <li>EMail: <br/><a href="mailto:fachschaft.e-technik@uni-rostock.de">fachschaft.e-technik@uni-rostock.de</a></li>
-        <li>Homepage: <br/><a href="http://fsr.e-technik.uni-rostock.de">fsr.e-technik.uni-rostock.de</a></li>
-        <li>Facebook: <a href="https://www.facebook.com/FSR.ET.HRO">FSR.ET.HRO</a></li>
-      </ul>
-    </q>
-  </div>
+    <div id="fachschaftsrat-kontakt" class="step slide" data-x="4000" data-y="0">
+      <h2>Kontakt zum Fachschaftsrat</h2>
+      <q>
+        <ul>
+          <li>Sprecht uns direkt an!</li>
+          <li>EMail:
+            <br/><a href="mailto:fachschaft.e-technik@uni-rostock.de">fachschaft.e-technik@uni-rostock.de</a></li>
+          <li>Homepage:
+            <br/><a href="http://fsr.e-technik.uni-rostock.de">fsr.e-technik.uni-rostock.de</a></li>
+          <li>Facebook: <a href="https://www.facebook.com/FSR.ET.HRO">FSR.ET.HRO</a></li>
+        </ul>
+      </q>
+    </div>
 
-  <!-- Mentoring -->
-  <div id="mentoring" class="step title" data-x="6000" data-y="1600">
-    <h1>Mentoring</h1>
-  </div>
+    <!-- Mentoring -->
+    <div id="mentoring" class="step title" data-x="6000" data-y="1600">
+      <h1>Mentoring</h1>
+    </div>
 
-  <div id="mentoring-erklaerung" class="step slide" data-x="7000" data-y="1600">
-    <h2>Was ist Mentoring?</h2>
-    <q>
-      <ul>
-        <li>Unterstützung bei: Studienorganisation, Einleben am Studienstandort, Hilfe bei Fragen und Problemen im Bezug auf das Studium</li>
-        <li>Mentoren sind Studenten aus den höheren Semestern</li>
-        <li>Teilnahme ist freiwillig</li>
-      </ul>
-    </q>
-  </div>
+    <div id="mentoring-erklaerung" class="step slide" data-x="7000" data-y="1600">
+      <h2>Was ist Mentoring?</h2>
+      <q>
+        <ul>
+          <li>Unterstützung bei: Studienorganisation, Einleben am Studienstandort, Hilfe bei Fragen und Problemen im Bezug auf das Studium</li>
+          <li>Mentoren sind Studenten aus den höheren Semestern</li>
+          <li>Teilnahme ist freiwillig</li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="mentoring-nutzen" class="step slide" data-x="8000" data-y="1600">
-    <h2>Nutzen des Mentoring</h2>
-    <q>
-      <ul>
-        <li>Erleichterung des Übergangs von der Schule oder Arbeit ins Studium</li>
-        <li>Kontakte zu Studenten höherer Semester knüpfen</li>
-        <li>akute Probleme können über die Mentoren an die Lehrkräfte weitergeleitet werden</li>
-      </ul>
-    </q>
-  </div>
+    <div id="mentoring-nutzen" class="step slide" data-x="8000" data-y="1600">
+      <h2>Nutzen des Mentoring</h2>
+      <q>
+        <ul>
+          <li>Erleichterung des Übergangs von der Schule oder Arbeit ins Studium</li>
+          <li>Kontakte zu Studenten höherer Semester knüpfen</li>
+          <li>akute Probleme können über die Mentoren an die Lehrkräfte weitergeleitet werden</li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="mentoring-inhalte" class="step slide" data-x="9000" data-y="1600">
-    <h2>Inhalte des Mentoring</h2>
-    <q>
-      <ul>
-        <li>Fragen rund ums Studium</li>
-        <li>Vorstellung der wichtigsten Online-Plattformen</li>
-        <li>Tipps zu Hausaufgaben und Lernstrategien</li>
-        <li>Zeitmanagement und Selbstorganisation</li>
-        <li>Hinweise zu den Prüfungen</li>
-      </ul>
-    </q>
-  </div>
+    <div id="mentoring-inhalte" class="step slide" data-x="9000" data-y="1600">
+      <h2>Inhalte des Mentoring</h2>
+      <q>
+        <ul>
+          <li>Fragen rund ums Studium</li>
+          <li>Vorstellung der wichtigsten Online-Plattformen</li>
+          <li>Tipps zu Hausaufgaben und Lernstrategien</li>
+          <li>Zeitmanagement und Selbstorganisation</li>
+          <li>Hinweise zu den Prüfungen</li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="mentoring-aber" class="step title" data-x="9000" data-y="3300" data-scale=4 data-rotate="90">
-    <h1>Die genauen Inhalte bestimmt ihr!!!</h1>
-  </div>
+    <div id="mentoring-aber" class="step title" data-x="9000" data-y="3300" data-scale=4 data-rotate="90">
+      <h1>Die genauen Inhalte bestimmt ihr!!!</h1>
+    </div>
 
-  <div id="mentoring-organisation" class="step slide" data-x="7000" data-y="3300" data-rotate="90">
-    <h2>Organisation des Mentoring</h2>
-    <q>
-      <ul>
-        <li>4 Gruppen mit je 2 Mentoren</li>
-        <li>Häufigkeit der Treffen und Termine werden in den Gruppen bestimmt</li>
-        <li>Kennenlernen der Mentoren nachher beim Grillen</li>
-        <li>Eintragung in die Gruppen beim ersten Treffen am Donnerstag</li>
-      </ul>
-    </q>
-  </div>
+    <div id="mentoring-organisation" class="step slide" data-x="7000" data-y="3300" data-rotate="90">
+      <h2>Organisation des Mentoring</h2>
+      <q>
+        <ul>
+          <li>4 Gruppen mit je 2 Mentoren</li>
+          <li>Häufigkeit der Treffen und Termine werden in den Gruppen bestimmt</li>
+          <li>Kennenlernen der Mentoren nachher beim Grillen</li>
+          <li>Eintragung in die Gruppen beim ersten Treffen am Donnerstag</li>
+        </ul>
+      </q>
+    </div>
 
-  <!-- Ablaufplan der Einführungswoche -->
-  <div id="ablaufplan-title" class="step title" data-x="6000" data-y="0">
-    <h1>Ablauf der Erstie-Woche</h1>
-  </div>
+    <!-- Ablaufplan der Einführungswoche -->
+    <div id="ablaufplan-title" class="step title" data-x="6000" data-y="0">
+      <h1>Ablauf der Erstie-Woche</h1>
+    </div>
 
-  <div id="ablaufplan-montag" class="step slide" data-x="7000" data-y="0">
-    <h2>Montag, 05.10.2015</h2>
-    <q>
-      <b>11:00 - 12:00 Uhr:</b>
-        Begrüßung durch den Fachschaftsrat und Vorstellung des Mentoring <br/>
-        <b>Danach:</b>
-        gemeinsames Grillen mit dem Fachschaftsrat <b>(Freibier!!!)</b>
-    </q>
-  </div>
+    <div id="ablaufplan-montag" class="step slide" data-x="7000" data-y="0">
+      <h2>Montag, 05.10.2015</h2>
+      <q>
+        <b>11:00 - 12:00 Uhr:</b> Begrüßung durch den Fachschaftsrat und Vorstellung des Mentoring
+        <br/>
+        <b>Danach:</b> gemeinsames Grillen mit dem Fachschaftsrat <b>(Freibier!!!)</b>
+      </q>
+    </div>
 
-  <div id="ablaufplan-dienstag" class="step slide" data-x="8000" data-y="0">
-    <h2>Dienstag, 06.10.2015</h2>
-    <q>
-      <b>Ab 9 Uhr:</b>
-      zentraler Campustag auf dem Ulmencampus, Beratung durch den FSR im Raum...<br/>
-      <b>Ab 19 Uhr:</b>
-      Livemusik auf dem Ulmencampus
-    </q>
-  </div>
+    <div id="ablaufplan-dienstag" class="step slide" data-x="8000" data-y="0">
+      <h2>Dienstag, 06.10.2015</h2>
+      <q>
+        <b>Ab 9 Uhr:</b> zentraler Campustag auf dem Ulmencampus, Beratung durch den FSR im Raum...
+        <br/>
+        <b>Ab 19 Uhr:</b> Livemusik auf dem Ulmencampus
+      </q>
+    </div>
 
-  <div id="ablaufplan-mittwoch" class="step slide" data-x="9000" data-y="0">
-    <h2>Mittwoch, 07.10.2015</h2>
-    <q>
-      <b>Erstie-Rallye</b><br/>
-      <ul>
-        <li>Start: 14:00 Uhr</li>
-        <li>Treffpunkt: Albert-Einstein-Str. 2</li>
-        <li>Kennenlernen der Räume und Standorte</li>
-        <li>Am Ziel erwarten euch tolle Preise</li>
-      </ul>
-    </q>
-  </div>
+    <div id="ablaufplan-mittwoch" class="step slide" data-x="9000" data-y="0">
+      <h2>Mittwoch, 07.10.2015</h2>
+      <q>
+        <b>Erstie-Rallye</b>
+        <br/>
+        <ul>
+          <li>Start: 14:00 Uhr</li>
+          <li>Treffpunkt: Albert-Einstein-Str. 2</li>
+          <li>Kennenlernen der Räume und Standorte</li>
+          <li>Am Ziel erwarten euch tolle Preise</li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="ablaufplan-donnerstag-mentoring" class="step slide" data-x="10000" data-y="0">
-    <h2>Donnerstag, 08.10.2015</h2>
-    <q>
-    <b>Erstes Mentoring-Treffen</b><br/>
-      <ul>
-        <li>14:00 Uhr</li>
-        <li>Treffpunkt: Albert-Einstein-Str. 2</li>
-        <li>Raum: Ex04</li>
-      </ul>
-    </q>
-  </div>
+    <div id="ablaufplan-donnerstag-mentoring" class="step slide" data-x="10000" data-y="0">
+      <h2>Donnerstag, 08.10.2015</h2>
+      <q>
+        <b>Erstes Mentoring-Treffen</b>
+        <br/>
+        <ul>
+          <li>14:00 Uhr</li>
+          <li>Treffpunkt: Albert-Einstein-Str. 2</li>
+          <li>Raum: Ex04</li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="ablaufplan-donnerstag-kneipentour" class="step slide" data-x="10000" data-y="800">
-    <h2>Donnerstag, 08.10.2015</h2>
-    <q>
-      <b>Kneipentour durch Rostock</b><br/>
-      <ul>
-        <li>19:00 Uhr</li>
-        <li>Treffpunkt: Ulmenstraße 69, vor dem Audimax</li>
-        <li>Anmeldung bitte an <a href="mailto:fachschaft.e-technik@uni-rostock.de">fachschaft.e-technik@uni-rostock.de</a></li>
-      </ul>
-    </q>
-  </div>
+    <div id="ablaufplan-donnerstag-kneipentour" class="step slide" data-x="10000" data-y="800">
+      <h2>Donnerstag, 08.10.2015</h2>
+      <q>
+        <b>Kneipentour durch Rostock</b>
+        <br/>
+        <ul>
+          <li>19:00 Uhr</li>
+          <li>Treffpunkt: Ulmenstraße 69, vor dem Audimax</li>
+          <li>Anmeldung bitte an <a href="mailto:fachschaft.e-technik@uni-rostock.de">fachschaft.e-technik@uni-rostock.de</a></li>
+        </ul>
+      </q>
+    </div>
 
-  <div id="ablaufplan-freitag" class="step slide" data-x="11000" data-y="800">
-    <h2>Freitag, 09.10.2015</h2>
-    <q>
-      <b>Vortrag der Bibliothek</b><br/>
-      <ul>
-        <li>9:00 Uhr</li>
-        <li>Treffpunkt: Albert-Einstein-Str. 22, HS 037</li>
-        <li>Informationen über Nutzungsmöglichkeiten der Bibliotheken</li>
-      </ul>
-    </q>
-  </div>
+    <div id="ablaufplan-freitag" class="step slide" data-x="11000" data-y="800">
+      <h2>Freitag, 09.10.2015</h2>
+      <q>
+        <b>Vortrag der Bibliothek</b>
+        <br/>
+        <ul>
+          <li>9:00 Uhr</li>
+          <li>Treffpunkt: Albert-Einstein-Str. 22, HS 037</li>
+          <li>Informationen über Nutzungsmöglichkeiten der Bibliotheken</li>
+        </ul>
+      </q>
+    </div>
 
     <!-- Tino's Fotokreisel -->
     <div id="foto1" class="step img-slide" data-x="3000" data-y="3000">
@@ -294,9 +301,9 @@
 
     <div id="overview" class="step" data-x="5000" data-y="3500" data-scale="11">
     </div>
-</div>
+  </div>
 
-<!--
+  <!--
 
     Hint is not related to impress.js in any way.
 
@@ -320,18 +327,21 @@
     Just sayin' ;)
 
 -->
-<div class="hint">
+  <div class="hint">
     <p>Navigation mit Space oder Pfeiltasten</p>
-</div>
-<script>
-if ("ontouchstart" in document.documentElement) {
-    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
-}
-</script>
+  </div>
+  <script>
+    if ("ontouchstart" in document.documentElement) {
+      document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    }
+  </script>
 
-<script src="js/impress.js"></script>
-<script>impress().init();</script>
-<!-- Run google code prettify -->
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  <script src="js/impress.js"></script>
+  <script>
+    impress().init();
+  </script>
+  <!-- Run google code prettify -->
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </body>
+
 </html>
