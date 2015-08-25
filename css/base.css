@@ -120,7 +120,7 @@ body     { pointer-events: none; }
 
 /* fade out inactive slides */
 .step:not(.active) {
-    opacity: 0.3;
+    opacity: 0.1; /* vielleicht doch eher wieder 0.3 */
 }
 
 /* hint on the first slide */
@@ -217,3 +217,9 @@ body     { pointer-events: none; }
 .impress-not-supported .fallback-message {
     display: block;
 }
+
+.impress-enabled .step.active {
+    opacity: 1;
+}
+
+.impress-enabled .multi { opacity: 0.01; }
