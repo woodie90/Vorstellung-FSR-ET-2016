@@ -31,14 +31,14 @@ small, span.small {
 
     border-radius: 10px;
 
-    background-color: white;
+    background-color: #fcfcfc;
 
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .3);
 
     font-family: 'Open Sans', Arial, sans-serif;
 
-    color: rgb(102, 102, 102);
+    color: #3b3b3b;
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     font-size: 30px;
@@ -111,7 +111,7 @@ small, span.small {
 h1 h, h2 h, h3 h, h4 h {
     /* Highlight in Title */
 /*    font-variant: small-caps;*/
-    color: #000022;
+    color: #3b3b3b;
     background-color: rgba(255, 255, 255, 0.3);
     border: rgba(150, 150, 150, 0.8) solid 10px;
 }
